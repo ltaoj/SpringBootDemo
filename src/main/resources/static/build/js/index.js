@@ -1,0 +1,1 @@
+function uploadFile(){var e={};$.ajaxFileUpload({url:"importExcel",secureuri:!1,data:e,fileElementId:"excel",dataType:"json",success:function(e,l){"success"==e.result?console.log(e.object):alert("上传失败")},error:function(e,l,c){alert("服务器错误")}})}

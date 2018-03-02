@@ -1,0 +1,11 @@
+{
+  "name": "springboot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "package": "r.js.cmd -o ./src/main/resources/static/app.build.js"
+  },
+  "author": "ltaoj",
+  "license": "ISC"
+}
